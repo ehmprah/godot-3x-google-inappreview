@@ -28,5 +28,5 @@ dependencies {
 
     implementation libs.appcompat
     implementation libs.review
-    implementation files('../godot-lib.3.6.stable.release.aar')
+    compileOnly files('../godot-lib.3.6.stable.release.aar')
 }
