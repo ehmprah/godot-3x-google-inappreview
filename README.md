@@ -1,1 +1,1 @@
-# godot-3x-google-inappreview
+# InAppReview Plugin for Godot 3.x

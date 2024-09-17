@@ -1,0 +1,8 @@
+[config]
+
+name="GodotInAppReview"
+binary_type="local"
+binary="GodotInAppReview.release.aar"
+
+[dependencies]
+remote=["com.google.android.play:review:2.0.1"]

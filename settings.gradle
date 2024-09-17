@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Godot3xGoogleInAppReview"
+rootProject.name = "GodotInAppReview"
 include ':app'

@@ -1,4 +1,4 @@
-package games.sonderland.godot_3x_google_inappreview;
+package games.sonderland.godot_inappreview;
 
 
 import android.app.Activity;
@@ -24,8 +24,8 @@ import java.util.Set;
 /**
  * Plugin that allows in-app reviews for the Google Play store.
  */
-public class InAppReviewPlugin extends GodotPlugin {
-    private static final String CLASS_NAME = InAppReviewPlugin.class.getSimpleName();
+public class GodotInAppReview extends GodotPlugin {
+    private static final String CLASS_NAME = GodotInAppReview.class.getSimpleName();
     private static final String LOG_TAG = "godot::" + CLASS_NAME;
 
     private static final String SIGNAL_NAME_REVIEW_INFO_GENERATED = "review_info_generated";
@@ -37,7 +37,7 @@ public class InAppReviewPlugin extends GodotPlugin {
     private ReviewManager manager;
     private ReviewInfo reviewInfo;	// needed to launch review flow
 
-    public InAppReviewPlugin(Godot godot) {
+    public GodotInAppReview(Godot godot) {
         super(godot);
     }
 

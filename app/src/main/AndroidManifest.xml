@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <meta-data
-        android:name="org.godotengine.plugin.v1.godot_3x_google_inappreview"
-        android:value="games.sonderland.godot_3x_google_inappreview.InAppReviewPlugin" />
+    <application>
+        <meta-data 
+            android:name="org.godotengine.plugin.v1.GodotInAppReview"
+            android:value="games.sonderland.godot_inappreview.GodotInAppReview" />
+    </application>
 
 </manifest>
